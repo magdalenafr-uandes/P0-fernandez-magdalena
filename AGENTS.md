@@ -26,5 +26,5 @@ matrices sencilla.
 1. Ejecutar `git status` antes de modificar archivos.
 2. Revisar la estructura actual del repositorio.
 3. Proponer un plan breve antes de implementar.
-4. Después de modificar código, ejecutar `pytest` para verificar.
+4. Después de modificar código, ejecutar `python -m pytest` para verificar.
 5. Explicar los cambios realizados y mostrar el resultado de `git diff`.

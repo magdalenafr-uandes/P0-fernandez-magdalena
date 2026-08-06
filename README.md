@@ -35,9 +35,23 @@ Instalar las dependencias:
 pip install -r requirements.txt
 ```
 
+## Ejecutar el proyecto
+
+Obtener la información del computador:
+
+```powershell
+python src/system_info.py
+```
+
+Ejecutar las pruebas:
+
+```powershell
+python -m pytest
+```
+
 ## Estado actual
 
 - Ambiente virtual configurado y dependencias instaladas.
-- Comienzo de la entrega P0E1: README inicial y AGENTS.md.
-- Los scripts de Python y las mediciones del sistema se agregarán en
-  siguientes pasos.
+- `src/system_info.py` implementado; `data/system_info.json` generado con
+  datos reales del computador.
+- `src/mimatmul.py` implementado con dos pruebas iniciales aprobadas.
