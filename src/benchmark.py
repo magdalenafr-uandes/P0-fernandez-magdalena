@@ -20,7 +20,7 @@ def escribir_resultados(filas, ruta):
 
 if __name__ == "__main__":
     rng = np.random.default_rng(2026)
-    tamanos = [10, 20, 40, 80]
+    tamanos = [40, 80, 120, 160]
     repeticiones = 3
     filas = []
 
