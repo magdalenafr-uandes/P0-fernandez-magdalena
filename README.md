@@ -159,5 +159,6 @@ sistema operativo, Python, NumPy y otros programas también consumen memoria.
 
 - P0E1 completa: ambiente configurado, `system_info.py`, `data/system_info.json`,
   `mimatmul.py` y pruebas aprobadas.
-- P0E2 implementada: benchmark, CSV, gráfico y documentación final preparados;
-  falta la verificación final de reproducibilidad.
+- P0E2 completa: benchmark, CSV, gráfico y documentación final listos; la
+  reproducibilidad fue verificada exitosamente desde una copia nueva del
+  repositorio.
